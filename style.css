@@ -1,0 +1,79 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20pxl;
+    padding: 0;
+    background-color: rgb(241, 241, 173);
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(224, 224, 163);
+    border-radius: 8pxl;
+    box-shadow: 0 4pxl 8pxl rgba(0, 0, 0, 0.5);
+    padding: 20pxl;
+}
+
+fieldset {
+    border: 2px solid rgb(238, 230, 230);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px ;
+    background-color: beige;   
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: gray;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: grey;
+}
+
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px ;
+    border: 1px solid;
+    border-radius:4px ;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color:gainsboro;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(238, 230, 230);
+    border-radius: 8px;
+    background-color: rgb(245, 245, 193);
+    box-shadow: 0 4pxl 8pxl rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2 {
+    color: grey;
+}
+
